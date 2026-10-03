@@ -12,7 +12,7 @@ services:
       - userdata:/var/lib/mysql
 
   application:
-    conatainer_name: app-cont
+    container_name: app-cont
     image: app-image
     ports:
       - "1111:8080"
